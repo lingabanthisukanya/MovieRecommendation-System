@@ -7,7 +7,7 @@ st.title("Movie Recommendation System")
 
 try:
     movies=pd.read_csv('IMDB-Movie-Data.csv')
-    st.write("✓ Movie Dataset loaded successfully!")
+    st.write(" Movie Dataset loaded successfully!")
     st.write(f"Total movies: {len(movies)}")
     
     movies['Genre']=movies['Genre'].fillna('')
